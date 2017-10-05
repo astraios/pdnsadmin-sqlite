@@ -36,7 +36,7 @@ services:
       - 9393:9393
     volumes:
       - your/favorite/path:/powerdns-admin
-    environments:
+    environment:
       PDNS_APIKEY: somekey
       PDNS_VERSION: 4.0.0
       PDNS_URL: http://somepdnsurl
